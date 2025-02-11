@@ -1,5 +1,9 @@
 const myLibrary = [];
 
+myLibrary.push(new Book('The Hobbit', 'J.R.R. Tolkien', 295, true));
+myLibrary.push(new Book('The Lord of the Rings', 'J.R.R. Tolkien', 1178, false));
+myLibrary.push(new Book('The Silmarillion', 'J.R.R. Tolkien', 365, false));
+
 function Book(title, author, pages, read) {
   this.title = title;
   this.author = author;
